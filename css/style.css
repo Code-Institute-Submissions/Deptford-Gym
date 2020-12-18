@@ -1,0 +1,81 @@
+.heading{
+    background-color: #525252;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#nav{
+    background-color: rgb(153, 146, 146);
+    text-align: center;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+
+#nav li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px;
+    
+}
+
+#nav li a{
+   text-decoration: none;
+   color: white;
+   font-stretch: expanded;
+}
+
+#nav li i{
+    margin-left: 10px;
+}
+
+/*--------------------------------------------------------------index.html*/
+
+section{
+    background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg) no-repeat center center;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.text-bloks{
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+/*------------------Footer*/
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links{
+    padding-bottom: 15px;
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+     transition: all 0.35s ease-in-out;
+     -moz-transition: all 0.35s ease-in-out;
+     -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+}
