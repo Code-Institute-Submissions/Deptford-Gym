@@ -16,19 +16,28 @@
     list-style-type: none;
     font-size: 20px;
     color: white;
+    
 }
 
 #nav li{
     text-decoration: none;
     display: inline-block;
     padding: 25px;
-    
+     
+}
+
+#nav li:hover{
+    background-color: yellow;
 }
 
 #nav li a{
    text-decoration: none;
    color: white;
    font-stretch: expanded;
+}
+
+#nav li a:hover{
+    color: black;
 }
 
 #nav li i{
@@ -38,17 +47,44 @@
 /*--------------------------------------------------------------index.html*/
 
 section{
-    background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg) no-repeat center center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    background-color: whitesmoke;
 }
 
+.centre-image{
+    background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg) no-repeat center center;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .text-bloks{
     padding: 20px 20px 20px 20px;
 }
 
+.block-left{
+   
+   background-color: rgba(0, 0, 0, 0.4);
+   margin-left: -650px;
+   margin-right: 600px;
+   margin-top: 100px;
+}
+
+.block-center{
+   
+   background-color: rgba(0, 0, 0, 0.4);
+   margin-top: 250px;
+}
+
+.block-right{
+   
+   background-color: rgba(0, 0, 0, 0.4);
+   margin-right: -650px;
+   margin-left: 600px;
+   margin-top: -475px;
+}
 
 
 /*------------------Footer*/
@@ -65,17 +101,14 @@ footer{
 }
 
 .social-links li a i{
-    width: 32px;
-    height: 32px;
+    width: 62px;
+    height: 62px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 29px;
+    line-height: 38px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
-     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-     -webkit-transition: all 0.35s ease-in-out;
-     -o-transition: all 0.35s ease-in-out;
-}
+ }
+
