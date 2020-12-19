@@ -39,9 +39,9 @@
 
 section{
     background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg) no-repeat center center;
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 
