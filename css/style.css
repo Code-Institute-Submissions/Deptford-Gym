@@ -89,16 +89,13 @@ section{
 
 /*------------------Footer*/
 
-footer{
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
+
 
 .social-links{
     padding-bottom: 15px;
 }
+
+
 
 .social-links li a i{
     width: 62px;
@@ -112,3 +109,6 @@ footer{
     background: #8f8f8f;
  }
 
+.social-links li a i:hover{
+    background-color: #3b5998;
+}
