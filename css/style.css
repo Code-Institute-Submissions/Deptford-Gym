@@ -112,3 +112,17 @@ section{
 .social-links li a i:hover{
     background-color: #3b5998;
 }
+
+
+/*-----------------Gallery.html*/
+
+#photo{
+      clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100px;
+}
