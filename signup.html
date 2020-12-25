@@ -32,9 +32,22 @@
 
     <section class="form-section">
         <form method="POST" action="#" class="signup-form">
-            <h2>If you are intrested in starting a new lifestyle, sign up here to book a apointment with 
-                on of our PT's</h2>
-            <input type="text"><input type="submit" value="Submit"></form>
+            <h4>Let's get you signed up for a FREE PT session!</h4>
+            
+            <label for="fname">First Name</label>
+            <input for="fname" id="fname" type="text" name="first_name" required class="text-input" placeholder="John">
+            
+            <label for="lname">Last Name</label>
+            <input for="lname" id="lname" type="text" name="last_name" required class="text-input" placeholder="Doe">
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required class="text-input" placeholder="Johndoe@email.com">
+
+            <label for="date">Pick a date there suits you</label>
+            <input id="date" type="date" name="date" required class="text-input">
+
+            <input type="submit" value="Let's Go!" class="join_button">
+        </form>
     </section>
 
 
