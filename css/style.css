@@ -1,3 +1,6 @@
+/*--------------------- Heading*/
+
+
 .heading{
     background-color: #525252;
     text-align: center;
@@ -51,13 +54,11 @@ section{
 }
 
 .centre-image{
-    background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg) no-repeat center center;
-    height: 450px;
-    width: 450px;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    clear: left;
+    background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
 
 .text-bloks{
