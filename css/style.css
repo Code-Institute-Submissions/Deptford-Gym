@@ -90,7 +90,10 @@ section{
 
 /*------------------Footer*/
 
-
+footer{
+    background-color: #00539CFF;
+    color: #EEA47FFF;
+}
 
 .social-links{
     padding-bottom: 15px;
@@ -106,8 +109,8 @@ section{
     font-size: 29px;
     line-height: 38px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #EEA47FFF;
+    background: #00539CFF;
  }
 
 .social-links li a i:hover{
