@@ -63,30 +63,30 @@ section{
 
 .text-bloks{
     padding: 20px 20px 20px 20px;
+    text-align: center;
+    float: left;
 }
 
 .block-left{
    
    background-color: rgba(0, 0, 0, 0.7);
-   margin-left: -650px;
-   margin-right: 600px;
-   margin-top: 100px;
+    display: inline-block;
+    text-align: justify;
 }
 
 .block-center{
    
    background-color: rgba(0, 0, 0, 0.7);
-   margin-top: 250px;
+   display: inline-block;
+   text-align: justify;
 }
 
 .block-right{
-   
    background-color: rgba(0, 0, 0, 0.7);
-   margin-right: -650px;
-   margin-left: 600px;
-   margin-top: -475px;
+   display: inline-block;
+   text-align: justify;
+   
 }
-
 
 /*------------------Footer*/
 
@@ -98,8 +98,6 @@ footer{
 .social-links{
     padding-bottom: 15px;
 }
-
-
 
 .social-links li a i{
     width: 62px;
