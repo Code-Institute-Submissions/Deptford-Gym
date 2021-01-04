@@ -125,3 +125,23 @@ footer{
     column-gap: 0px;
 }
 
+
+/*---------------Sign up*/
+
+.form-section{
+    clear: left;
+    background: url(../images/np_Woman\ fitness\ coach\ monitoring\ runner\ with\ mask\ on\ treadmill\ in\ laboratory_0JoBd5_free.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form{
+  margin-top: 150px;
+  color: #fff;
+  background-color: rgba(60,60,60,0.6);
+  max-width: 400px;
+  position: absolute;
+  left: 10%;
+  padding: 30px;
+}
