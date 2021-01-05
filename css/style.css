@@ -2,18 +2,18 @@
 
 
 .heading{
-    background-color: #00539CFF;
+    background-color: #d5d5d3;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 0;
-    color: #EEA47FFF;
+    color: #fffffb;
     text-transform: uppercase;
     font-size: 25px;
 }
 
 #nav{
-    background-color: #00539CFF;
+    background-color: #b8bab9;
     text-align: center;
     margin: 0;
     list-style-type: none;
@@ -25,22 +25,18 @@
 #nav li{
     text-decoration: none;
     display: inline-block;
-    padding: 25px;
+    padding: 15px;
     
 }
 
 #nav li:hover{
-    background-color: #EEA47FFF;
+    background-color: #012935;
 }
 
 #nav li a{
    text-decoration: none;
-   color: #EEA47FFF;
+   color: #fffffb;
    font-stretch: expanded;
-}
-
-#nav li a:hover{
-    color: #00539CFF;
 }
 
 #nav li i{
@@ -65,50 +61,69 @@ section{
     padding: 20px 20px 20px 20px;
     text-align: center;
     float: left;
+    color: #877f7d;
 }
 
 .block-top{
-   
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.85);
     display: inline-block;
     text-align: justify;
-    color: #fafafa;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    
 }
 
 .block-top h3{
     text-align: center;
+    color: #bebd88;
+}
+
+.block-top p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .block-middle{
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.85);
    display: inline-block;
    text-align: justify;
-   color: #fafafa;
-   margin-bottom: 20px;
+   margin-bottom: 25px;
+}
+
+.block-middle ul{
+    list-style: none;
 }
 
 .block-middle h3{
     text-align: center;
+    color: #bebd88;
+}
+
+.block-middle p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .block-bottom{
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.85);
    display: inline-block;
    text-align: justify;
-   color: #fafafa;
-   
 }
 
 .block-bottom h3{
     text-align: center;
+    color: #bebd88;
+}
+
+.block-bottom p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*------------------Footer*/
 
 footer{
-    background-color: #00539CFF;
-    color: #EEA47FFF;
+    background-color: #666666;
+    color: #fffffb;
 }
 
 .social-links{
@@ -123,15 +138,20 @@ footer{
     font-size: 29px;
     line-height: 38px;
     text-align: center;
-    color: #EEA47FFF;
-    background: #00539CFF;
+    color: #012935;
+    background: #b8bab9;
  }
 
 .social-links li a i:hover{
     background-color: #3b5998;
 }
 
-
+.location{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+}
 /*-----------------Gallery.html*/
 
 #photo{
