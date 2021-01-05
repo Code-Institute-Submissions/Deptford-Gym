@@ -67,25 +67,41 @@ section{
     float: left;
 }
 
-.block-left{
+.block-top{
    
    background-color: rgba(0, 0, 0, 0.7);
     display: inline-block;
     text-align: justify;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
-.block-center{
-   
+.block-top h3{
+    text-align: center;
+}
+
+.block-middle{
    background-color: rgba(0, 0, 0, 0.7);
    display: inline-block;
    text-align: justify;
+   color: #fafafa;
+   margin-bottom: 20px;
 }
 
-.block-right{
+.block-middle h3{
+    text-align: center;
+}
+
+.block-bottom{
    background-color: rgba(0, 0, 0, 0.7);
    display: inline-block;
    text-align: justify;
+   color: #fafafa;
    
+}
+
+.block-bottom h3{
+    text-align: center;
 }
 
 /*------------------Footer*/
