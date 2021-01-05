@@ -147,10 +147,9 @@ footer{
 }
 
 .location{
-    position: fixed;
     bottom: 0;
     right: 0;
-    margin-right: 20px;
+    margin-right: 20px;   
 }
 /*-----------------Gallery.html*/
 
