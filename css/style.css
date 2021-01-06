@@ -47,6 +47,7 @@
 
 section{
     background-color: whitesmoke;
+    width: 100%;
 }
 
 .centre-image{
@@ -130,6 +131,10 @@ section{
 footer{
     background-color: #666666;
     color: #fffffb;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
 }
 
 .social-links{
@@ -165,7 +170,6 @@ footer{
     column-count: 2;
     column-gap: 0px;
 }
-
 
 /*---------------Sign up*/
 
