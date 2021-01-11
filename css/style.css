@@ -17,9 +17,7 @@
     text-align: center;
     margin: 0;
     list-style-type: none;
-    font-size: 20px;
-    
-    
+    font-size: 20px; 
 }
 
 #nav li{
@@ -224,4 +222,13 @@ footer{
 .join_button:hover{
   background-color: #fafafa;
   color: #f16c6b;
+}
+
+
+/*----------Media*/
+
+@media screen and (max-width: 800px){
+    #photo{
+        column-count: 1;
+    }
 }
