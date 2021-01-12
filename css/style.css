@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 100px; 
+}
+
 /*--------------------- Heading*/
 
 
@@ -7,10 +19,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
-    color: #fffffb;
     text-transform: uppercase;
     font-size: 25px;
     text-decoration: none;
+    color: #fff;
 }
 
 #nav{
@@ -130,10 +142,11 @@ section{
 footer{
     background-color: #666666;
     color: #fffffb;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 150px;
+     position: absolute;
+    left: 0;
+     bottom: 0;
+    height: 100px;
+     width: 100%;
 }
 
 .social-links{
@@ -223,6 +236,8 @@ footer{
   background-color: #f16c6b;
   color: #fafafa;
   display: block;
+  font-family: 'Yusei Magic', sans-serif;
+  text-transform: uppercase;
 }
 
 .join_button:hover{
