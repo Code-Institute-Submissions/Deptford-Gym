@@ -61,6 +61,10 @@ section{
     width: 100%;
 }
 
+#container{
+    height: 100%;
+}
+
 .centre-image{
     clear: left;
     background: url(../images/np_Young\ woman\ in\ the\ gym\ working\ out\ with\ a\ kettlebell_25nPmb_free.jpg);
@@ -251,5 +255,17 @@ footer{
 @media screen and (max-width: 800px){
     #photo{
         column-count: 1;
+    }
+    .block-top{
+        width: 100%;
+    }
+    .block-middle{
+        width: 100%;
+    }
+    .block-bottom{
+        width: 100%;
+    }
+    #section{
+        height: auto
     }
 }
