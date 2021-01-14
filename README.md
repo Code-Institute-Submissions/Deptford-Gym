@@ -25,6 +25,8 @@ The website is created with HTML5 & CSS3, and made responsive with Bootstrap
 - HTML5
 - CSS3
 - Bootstrap
+- Font Awesome
+- Google Fonts
 ---
 
 ## References
@@ -33,6 +35,7 @@ A number of external sites and/or templets has been used doing this project.
 - README templet by [Jack Q Quick](https://github.com/jamesqquick) 
 - Pictures from [The Noun Project](https://thenounproject.com/)
 - Icons from [Font Awesome](https://fontawesome.com/)
+- Font Style from [Google Font](https://fonts.google.com/)
 
 [Back To The Top](#Deptford-Gym)
 
