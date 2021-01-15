@@ -1,6 +1,7 @@
 # Deptford Gym
 
-![Front Page](https://link/images/screenshots/SCREENSHOT DEPTFORD)
+![SCRRENSHOT DEPTFORD](https://user-images.githubusercontent.com/72796767/104643062-b4541780-56a3-11eb-9e4e-a96dca7ebd76.PNG)
+
 ---
 
 ### Table of Contents
@@ -27,6 +28,9 @@ The website is created with HTML5 & CSS3, and made responsive with Bootstrap
 - Bootstrap
 - Font Awesome
 - Google Fonts
+
+[Back To The Top](#Deptford-Gym)
+
 ---
 
 ## References
@@ -36,6 +40,16 @@ A number of external sites and/or templets has been used doing this project.
 - Pictures from [The Noun Project](https://thenounproject.com/)
 - Icons from [Font Awesome](https://fontawesome.com/)
 - Font Style from [Google Font](https://fonts.google.com/)
+
+[Back To The Top](#Deptford-Gym)
+
+---
+### Features to be implemeted in the future
+
+- Login page for current members 
+- Page with Classes overview 
+- Ability to book a class
+- Payment setup options for different memberships 
 
 [Back To The Top](#Deptford-Gym)
 

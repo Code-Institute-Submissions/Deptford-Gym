@@ -187,25 +187,31 @@ footer{
 
 .info{
     color: #012935;
+    width: 80%;
     float: right;
 }
 
 .phone{
-    margin-top: -100px;
-    margin-right: 400px;
+    float: left;
     border: #012935 1px solid;
+    margin-top: -100px;
+    width: 250px;
 }
 
 .location{
-    margin-top: -100px;
-    margin-right: 100px;
+    float: right;
     border: #012935 1px solid;
+    margin-top: -100px;
+    width: 250px;
 }
 
 .hours{
-    margin-top: -100px;
-    margin-right; 0px;
+    margin:0;
     border: #012935 1px solid;
+    margin: 0 auto;
+    margin-top: -100px;
+    width: 250px;
+    
 }
 
 /*-----------------Gallery.html*/
@@ -287,6 +293,9 @@ footer{
 @media screen and (max-width: 1393px){
     #photo{
         colum-count:2;
+    }
+    #container{
+        height: auto;
     }
 }
 
