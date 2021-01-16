@@ -9,6 +9,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [References](#references)
+- [Features to be implemeted in the future](#Features-to-be-implemeted-in-the-future)
 - [Author Info](#author-info)
 
 ---
