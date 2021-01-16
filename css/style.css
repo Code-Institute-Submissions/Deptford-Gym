@@ -29,6 +29,10 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+#location{
+    font-size: 12px;
+    text-align: center;
+}
 
 #nav{
     background-color: #b8bab9;
@@ -193,13 +197,6 @@ footer{
 
 .phone{
     float: left;
-    border: #012935 1px solid;
-    margin-top: -100px;
-    width: 250px;
-}
-
-.location{
-    float: right;
     border: #012935 1px solid;
     margin-top: -100px;
     width: 250px;
