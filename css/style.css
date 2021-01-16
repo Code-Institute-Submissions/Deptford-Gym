@@ -289,23 +289,40 @@ footer{
 
 /*--------------Lets go*/
 
-.let{
-    text-align: center;
-    margin-top: 150px;
-    border: 2px black solid;
-    border: 20px 20px 20px 20px;
+#thumb{
+    background: url(../images/np_Outdoor\ shot\ of\ young\ man\ giving\ high\ five\ to\ a\ woman_482870_free.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
 }
 
-.final{
-    
-    
+.let{
+    color:#fff;
+    text-align: center;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px 50px 20px 50px;
+    width: 60%;
+    border-radius: 30px;
+    font-family: 'Yusei Magic', sans-serif;
 }
+
+.button{
+    padding: 5px 20px 5px 20px;
+    background-color: #f16c6b;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.button:hover{
+    background-color: #fafafa;
+    color: #f16c6b;
+  }
 
 /*----------Media*/
 
 @media screen and (max-width: 1393px){
     #photo{
-        colum-count:2;
+        column-count:2;
     }
     #container{
         height: auto;
