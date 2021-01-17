@@ -32,7 +32,10 @@ body {
 #location{
     font-size: 12px;
     text-align: center;
+    font-weight: bold;
 }
+
+
 
 #nav{
     background-color: #b8bab9;
@@ -123,6 +126,7 @@ section{
 
 .block-middle ul li{
     text-decoration: underline;
+    margin-left: -35px;
 }
 
 .block-middle h3{
@@ -331,14 +335,25 @@ footer{
         column-count:2;
     }
     #container{
-        height: auto;
+        height: 1000px;
     }
-    
+    .block-top{
+        width: 100%;
+    }
+    .block-middle{
+        width: 100%;
+    }
+    .block-bottom{
+        width: 100%;
+    }
+   .form-section{
+       height: 1000px;
+   }
 }
 
 @media screen and (max-width: 800px){
     #photo{
-        column-count: 1;
+        column-count: 2;
     }
     .block-top{
         width: 100%;
@@ -352,4 +367,58 @@ footer{
     #section{
         height: 100%;
     }
+}
+
+@media screen and (max-width: 414px){
+    #photo{
+        column-count: 1;
+    }
+    .block-top{
+        width: 105%;
+    }
+    .block-middle{
+        width: 105%;
+    }
+    .block-bottom{
+        width: 105%;
+    }
+   #container{
+       height: 1350px;
+   }
+}
+
+@media screen and (max-width: 375px){
+    #photo{
+        column-count: 1;
+    }
+    .block-top{
+        width: 115%;
+    }
+    .block-middle{
+        width: 115%;
+    }
+    .block-bottom{
+        width: 115%;
+    }
+   #container{
+       height: 1550px;
+   }
+}
+
+@media screen and (max-width: 320px){
+    #photo{
+        column-count: 1;
+    }
+    .block-top{
+        width: 115%;
+    }
+    .block-middle{
+        width: 115%;
+    }
+    .block-bottom{
+        width: 115%;
+    }
+   #container{
+       height: 1700px;
+   }
 }
