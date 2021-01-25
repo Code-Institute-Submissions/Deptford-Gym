@@ -17,7 +17,7 @@ You're sections headers will be used to reference location of destination.
 ## Description
 
 This project is created to showcase a local owned gym in Deptford, London.
-The goal with this website is to attract ne customers, as the owners 
+The goal with this website is to attract new customers, as the owners 
 think there will be a surge in the market after the lockdowns are over, and
 more people wnat to have a healtier lifestyle.
 The website is created with HTML5 & CSS3, and made responsive with Bootstrap 
@@ -37,7 +37,7 @@ The website is created with HTML5 & CSS3, and made responsive with Bootstrap
 ## References
 A number of external sites and/or templets has been used doing this project.
 
-- README templet by [Jack Q Quick](https://github.com/jamesqquick) 
+- README template by [Jack Q Quick](https://github.com/jamesqquick) 
 - Pictures from [The Noun Project](https://thenounproject.com/)
 - Icons from [Font Awesome](https://fontawesome.com/)
 - Font Style from [Google Font](https://fonts.google.com/)
