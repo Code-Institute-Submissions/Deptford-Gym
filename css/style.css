@@ -29,7 +29,7 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-#location{
+.location{
     font-size: 12px;
     text-align: center;
     font-weight: bold;
