@@ -7,11 +7,20 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
+- [UX](#UX)
 - [Description](#description)
 - [References](#references)
 - [Features to be implemeted in the future](#Features-to-be-implemeted-in-the-future)
 - [Author Info](#author-info)
 
+---
+## UX
+
+- As a user, I want to be able to see the location of the gym. (Top of each page)
+- As a user, I want to be able to see a phone number to call the gym. (Top of each page)
+- As a user, I want to see the the opening hours of the gym. (Top of each page)
+- As a user, I want to see different pictures of people in the gym.
+- As a user, I want to be able to sign up for a PT session and get an introduction at the gym.
 ---
 
 ## Description
